@@ -1,7 +1,7 @@
 
 # Change computer name to match naming convention
 
-- name: Change Computer Name
+- name: Change Computer Names
   set_fact:
       new_computer_name: "contoso-{{ deployment_stage }}-dc01"
 
